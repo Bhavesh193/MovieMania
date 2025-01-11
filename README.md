@@ -10,9 +10,4 @@
 - This application includes user authentication, dark mode, sort movie on the basis of categories or genres, viewing movie and actor details, adding a movie to favorites or watchlist and many more functionalities.
 
 
-## Screenshots
-### Light Mode
-![App Screenshot](src/assets/images/light.png)
 
-### Dark Mode
-![App Screenshot](src/assets/images/dark.png)
