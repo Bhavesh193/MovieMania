@@ -46,10 +46,15 @@ function Sidebar({ setMobileOpen }) {
     <>
       <Link to="/" className={classes.imageLink}>
         <img
+          className={classes.logoImg}
+          src="../../../logo3.png"
+          alt="Filmpire Logo"
+        />
+        {/* <img
           className={classes.image}
           src={theme.palette.mode === "light" ? redLogo : blueLogo}
           alt="Filmpire Logo"
-        />
+        /> */}
       </Link>
       <Divider />
       <List>
@@ -65,19 +70,19 @@ function Sidebar({ setMobileOpen }) {
                   src={genreIcons[label.toLowerCase()]}
                   className={classes.genreImages}
                   height={30}
+                  alt="img"
                 />
               </ListItemIcon>
               <ListItemText
                 primary={label}
                 sx={{
                   color:
-                    genreIdOrCategoryName == value
+                    genreIdOrCategoryName === value
                       ? theme.palette.mode === "light"
                         ? "#1976D2"
                         : "#DC1A28"
                       : "",
-                  fontWeight:
-                    genreIdOrCategoryName == value ? 800 : "medium",
+                  fontWeight: genreIdOrCategoryName === value ? 800 : "medium",
                 }}
               />
             </ListItem>
@@ -103,18 +108,20 @@ function Sidebar({ setMobileOpen }) {
                     src={genreIcons[name.toLowerCase()]}
                     className={classes.genreImages}
                     height={30}
+                    alt="img"
                   />
                 </ListItemIcon>
                 <ListItemText
                   primary={name}
                   sx={{
                     color:
-                      genreIdOrCategoryName == id
+                      genreIdOrCategoryName === id
                         ? theme.palette.mode === "light"
                           ? "#1976D2"
                           : "#DC1A28"
                         : "",
-                    fontWeight: genreIdOrCategoryName == id ? "bold" : "medium",
+                    fontWeight:
+                      genreIdOrCategoryName === id ? "bold" : "medium",
                   }}
                 />
               </ListItem>

@@ -99,6 +99,9 @@ function Navbar() {
                   alt="Profile"
                   src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar?.avatar_path}`}
                 />
+                {/* {console.log(
+                  `https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar?.avatar_path}`
+                )} */}
               </Button>
             )}
           </div>
