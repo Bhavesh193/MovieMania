@@ -10,9 +10,16 @@
 - This application includes user authentication, dark mode, sort movie on the basis of categories or genres, viewing movie and actor details, adding a movie to favorites or watchlist and many more functionalities.
 
 
-## Screenshots
-### Light Mode
-![App Screenshot](src/assets/images/light.png)
+### Installation
 
-### Dark Mode
-![App Screenshot](src/assets/images/dark.png)
+Setup:
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/Bhavesh193/MovieMania.git
+   ```
+2. Install NPM packages:
+   ```sh
+   npm install
+   ```
+3. Create your `.env` file as it is instructed in `.env`.
