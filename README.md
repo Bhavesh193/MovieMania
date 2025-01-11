@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- MovieMania is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple. Filmpire also provides ratings of movies.
+- MovieMania is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple. MovieMania also provides ratings of movies.
 
 - MovieMania
  combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, and more.
