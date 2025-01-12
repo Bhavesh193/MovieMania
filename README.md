@@ -23,4 +23,6 @@ Setup:
    npm install
    ```
 3. Create your `.env` file as it is instructed in `.env`.
->>>>>>> d50aa127f7c8568c6beb78ab5443ca6e81166b44
+``` 
+   TMDB_URL = " "
+```
