@@ -10,9 +10,6 @@
 - This application includes user authentication, dark mode, sort movie on the basis of categories or genres, viewing movie and actor details, adding a movie to favorites or watchlist and many more functionalities.
 
 
-<<<<<<< HEAD
-
-=======
 ### Installation
 
 Setup:
